@@ -1,5 +1,5 @@
-#Weekly JavaScript Challenge #9
-##Simple Markdown Editor
+# Weekly JavaScript Challenge #9
+## Simple Markdown Editor
 
 _Avaliable tools_:
 * headers
