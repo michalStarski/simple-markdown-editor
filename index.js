@@ -25,7 +25,7 @@ _Avaliable tools_:
 * strikethrough
 * list
 * links
-[github:](https://github.com/michalStarski)`,
+[github](https://github.com/michalStarski)`,
 
   transform: function(string) {
     for(let i = 6; i >= 1; i--){
