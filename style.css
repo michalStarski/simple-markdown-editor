@@ -1,0 +1,57 @@
+body{
+    background-color:#0D9CF5;
+    font-family: 'Montserrat', sans-serif;
+    color:#ffffff;
+    border: 10px solid #ffffff;
+    min-height:100vh;
+}
+
+.header{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color:#000000;
+}
+
+.preview{
+    height:500px;
+    background-color:#ffffff;
+    max-width: 690px;
+    max-height:500px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    overflow: scroll;
+}
+
+.editor-window, .editor-window:focus{
+    background-color:#282c34;
+    height:500px;
+    color:#f6f7ee;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    line-height: 1.5rem;
+}
+
+.row{
+    padding:20px;
+}
+
+.fa-file-pdf{
+    font-size:2rem;
+}
+
+.btn{
+    background: transparent;
+    color:#ffffff;
+}
+
+.btn:hover{
+    background-color:#ffffff;
+    color:#000000;
+}
