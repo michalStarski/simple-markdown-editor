@@ -13,8 +13,8 @@ const MarkdownTranslator = {
     listItemContainer: /<li>(.*)<\/li>/g,
   },
 
-  defaultText: `# Weekly JavaScript Challenge #9
-## Simple Markdown Editor
+  defaultText: `#Weekly JavaScript Challenge #9
+##Simple Markdown Editor
 **to get started simply start writing ...**
 ~~it's super hard~~
 
@@ -29,7 +29,7 @@ _Avaliable tools_:
 
   transform: function(string) {
     for(let i = 6; i >= 1; i--){
-      string = string.replace(new RegExp(`#{${i}} (.+)`, `g`), `<h${i}>$1</h${i}>`);
+      string = string.replace(new RegExp(`#{${i}}(.+)`, `g`), `<h${i}>$1</h${i}>`);
     }
     string = string.replace(this.regex.bold, "<strong>$1</strong>")
       .replace(this.regex.listItem, "<li>$1</li>")
