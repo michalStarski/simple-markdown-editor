@@ -13,8 +13,8 @@ const MarkdownTranslator = {
     listItemContainer: /<li>(.*)<\/li>/g,
   },
 
-  defaultText: `#Weekly JavaScript Challenge #9
-##Simple Markdown Editor
+  defaultText: `# Weekly JavaScript Challenge #9
+## Simple Markdown Editor
 **to get started simply start writing ...**
 ~~it's super hard~~
 
